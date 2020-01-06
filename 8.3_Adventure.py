@@ -30,6 +30,56 @@ current_room = 0
 
 done = False
 while not done:
+    print("")
+    print(room_list[current_room][0])
+    direction = (input("where would you like to go? \n N for North \n E for East \n W for West \n S for South \n or Q for Quit Game \n")
+
+
+    if direction.lower() == "n" or direction.lower() == "north":
+        next_room = room_list[current_room][1]
+        if next_room == None:
+         print("You can't go that way")
+        else:
+            current_room = next_room
+
+
+
+
+    elif direction.lower() == "e" or direction.lower() == "east"):
+        next_room = room_list[current_room][2]
+    if next_room == None:
+        print("You can't go that way")
+    else:
+        current_room = next_room
+
+
+
+
+    elif direction.lower() == "s" or direction.lower() == "south"):
+    next_room = room_list[current_room][3]
+    if next_room == None:
+        print("You can't go that way")
+    else:
+        current_room = next_room
+
+
+
+    elif direction.lower() == "w" or direction.lower() == "west"):
+    next_room = room_list[current_room][4]
+    if next_room == None:
+        print("You can't go that way")
+    else:
+        current_room = next_room
+
+
+    elif direction.lower() == "q" or direction.lower() == "quit"
+        print("Thanks for playing!")
+        done = True
+    else:
+        print()
+        print("Invalid.")
+        print()
+        continue
 
 
 
