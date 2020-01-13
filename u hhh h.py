@@ -215,6 +215,6 @@ while not done:
         print()
         continue
     if len(inventory) == 5:
-        print("You have collected all the materials! Game is complete!")
+        print("You have collected all the materials! You make your way to the bus.")
 
 ###LANG AND LIT ROOM ###
