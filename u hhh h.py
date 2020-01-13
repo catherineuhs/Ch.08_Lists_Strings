@@ -14,7 +14,7 @@ room = ["Current Location: You have entered into the Language Arts Classroom. \n
 room_list.append(room)
 room = ["Current Location: You are in the Lunch Room. To your right, theres a long table with assorted produce. ", 4, None, None, 8]
 room_list.append(room)
-room = ["Current Location:You are in the Geometry Classroom. Everything is pretty normal, but theres a filing cabinet to the right that sticks out to you.", 5, 9, 1, None]
+room = ["Current Location:You are in the Geometry Classroom. \n Everything is pretty normal, but theres a filing cabinet to the right that sticks out to you.", 5, 9, 1, None]
 room_list.append(room)
 room = ["Current Location: You are in Gymnasium", 6, None, 2, 9]
 room_list.append(room)
@@ -24,11 +24,11 @@ room = ["Current Location: You are in the Physics Classroom. \n To your left the
 room_list.append(room)
 room = ["Current Location: You are in the Janitors Closet. You notice a row of cabinets along the walls.", None, None, 10, None]
 room_list.append(room)
-room = ["Current Location: You are in a long dark hallway(specifically hallway 8). The lights slightly flicker above you, making it so you can see a couple feet ahead of you.", 9, 2, 0, 1]
+room = ["Current Location: You are in a long dark hallway(specifically hallway 8). \n The lights slightly flicker above you, making it so you can see a couple feet ahead of you.", 9, 2, 0, 1]
 room_list.append(room)
-room = ["Current Location: You are in a long dark hallway(specifically hallway 9). The lights slightly flicker above you, making it so you can see a couple feet ahead of you.", 10, 4, 8, 3]
+room = ["Current Location: You are in a long dark hallway(specifically hallway 9). \n The lights slightly flicker above you, making it so you can see a couple feet ahead of you.", 10, 4, 8, 3]
 room_list.append(room)
-room = ["Current Location: You are in a long dark hallway(specifically hallway 10). The lights slightly flicker above you, making it so you can see a couple feet ahead of you.", 7, 6, 9, 5]
+room = ["Current Location: You are in a long dark hallway(specifically hallway 10).\n The lights slightly flicker above you, making it so you can see a couple feet ahead of you.", 7, 6, 9, 5]
 room_list.append(room)
 
 
