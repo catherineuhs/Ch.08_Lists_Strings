@@ -12,7 +12,7 @@ room = ["Current Location: You are in the office", 8, None, None, None]
 room_list.append(room)
 room = ["Current Location: You have entered into the Language Arts Classroom. \n You realise this might be a great opportunity to grab a pencil", 3, 8, None, None]
 room_list.append(room)
-room = ["Current Location: You are in the Lunch Room. To your right, theres a long table with assorted produce. ", 4, None, None, 8]
+room = ["Current Location: You are in the Lunch Room. To your right, there's a long table with assorted produce. ", 4, None, None, 8]
 room_list.append(room)
 room = ["Current Location:You are in the Geometry Classroom. \n Everything is pretty normal, but theres a filing cabinet to the right that sticks out to you.", 5, 9, 1, None]
 room_list.append(room)
